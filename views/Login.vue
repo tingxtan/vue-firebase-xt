@@ -5,10 +5,6 @@
 			<form class="register" @submit.prevent="register">
 				<h2>Register</h2>
 				<input
-					type="text"
-					placeholder="Username"
-					v-model="register_form.username" />
-				<input
 					type="email"
 					placeholder="Email address"
 					v-model="register_form.email" />
